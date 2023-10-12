@@ -1,0 +1,13 @@
+package bowling_pins;
+
+import java.util.Scanner;
+
+public class Demo extends bowling_Pins {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.print("Enter the desired amount of rows: ");
+		int n = in.nextInt();
+		print_Pins(n, 1);
+		in.close();
+	}
+}
